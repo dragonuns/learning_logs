@@ -1,0 +1,189 @@
+.btn{
+    background-color: #B2FEFA;
+    border: 0;
+    padding: .625rem;
+    border-radius: 0625rem;
+    color: #333;
+    margin: 0.3125rem;
+    -webkit-border-radius: 0625rem;
+    -moz-border-radius: 0625rem;
+    -ms-border-radius: 0625rem;
+    -o-border-radius: 0625rem;
+}
+.container{
+    box-sizing: border-box;
+    padding: .625rem 0;
+    margin: 0 12.5rem;
+    background-color: #FAFFD1;
+    display: flex;
+    /* height: 31.25rem; */
+    flex-direction: column;
+
+}
+.item{
+    box-sizing: border-box;
+    flex: 1;
+    background-color: #FFEFBA;
+    margin: .625rem;
+    border-radius: .625rem;
+    padding: .625rem;
+    -webkit-border-radius: .625rem;
+    -moz-border-radius: .625rem;
+    -ms-border-radius: .625rem;
+    -o-border-radius: .625rem;
+    display: flex;
+
+    box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 33%);
+}
+.date{
+    flex: 1;
+    border-radius: .625rem;
+    /*border-radius: 0.3125rem !important;
+    *//*-webkit-border-radius: 0.3125rem !important;
+    -moz-border-radius: .625rem;
+    -ms-border-radius: .625rem;
+    -o-border-radius: .625rem;
+    */background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* /*-webkit-border-radius: 0.3125rem;
+    */
+    /*-webkit-border-radius: .3125rem;
+    */ 
+    -webkit-border-radius: .625rem;
+}
+.date .top{
+    color: #fff;
+
+    padding: .3125rem;
+    flex: 2;
+    border-radius: 0.3125rem 0.3125rem 0 0;
+    /*-webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.3125rem 0.3125rem 0 0;
+    -ms-border-radius: 0.3125rem 0.3125rem 0 0;
+    -o-border-radius: 0.3125rem 0.3125rem 0 0;
+    */
+    background-color: #DC281E;
+
+    text-align: center;
+    flex: 2;
+    /* -webkit-border-radius: 0.3125rem 0.3125rem 0 0; */
+}
+.date .bottom{
+    background-color: #fff;
+
+    border-radius:0 0 0.3125rem 0.3125rem ;
+    flex: 2;
+    text-align: center;
+    line-height: 4.375rem;
+    font-size: 1.25rem;
+    flex: 4;}
+.study_time{ flex: 3;
+    padding: .3125rem;
+     border-radius: 0.3125rem; -webkit-border-radius: 0.3125rem; -moz-border-radius: 0.3125rem; -ms-border-radius: 0.3125rem; -o-border-radius: 0.3125rem;
+    text-align: center;
+    background-color: #FFEFBA;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.study_time .top{ 
+    flex: 2; 
+    /* border-radius: 0.3125rem; -webkit-border-radius: 0.3125rem; -moz-border-radius: 0.3125rem; -ms-border-radius: 0.3125rem; -o-border-radius: 0.3125rem; */
+    /* background-color: #fff; */
+    text-align: center;
+    flex: 2;
+    padding: 0.3125rem;
+
+}
+.study_time .top h1{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.study_time h1{
+    font-weight: normal;
+    font-size: .875rem;
+
+}
+.study_time .bottom{ 
+    flex: 2;
+     /* border-radius: 0.3125rem; -webkit-border-radius: 0.3125rem; -moz-border-radius: 0.3125rem; -ms-border-radius: 0.3125rem; -o-border-radius: 0.3125rem; */
+    /* background-color: #FFAFBD; */
+    text-align: center;
+line-height: 4.375rem;
+flex: 4;
+color: #DC281E;
+
+}
+
+.delete {
+    background-color: transparent;
+    border: 0;
+    box-sizing: border-box;
+    /*background: transparent;
+    *//*border: 0;
+    */color: #999;
+    margin-top: .1875rem;
+    transition: .5s;
+    padding: 5px;
+    font-size: .875rem;
+    text-align: center;
+    /* height: auto; */
+    line-height: 1.25rem;
+    height: 1.5625rem;
+    width: 3.125rem;
+}
+.delete:hover {
+    box-sizing: border-box;
+    line-height: 1.25rem;
+    height: 1.5625rem;
+    width: 3.125rem;
+    padding: 5px;
+    font-size: .875rem;
+    text-align: center;
+
+    border-radius: .3125rem;
+    background-color: #fff;
+    color:#ee9ca7;
+    margin: .1875rem;
+    /*text-transform: uppercase;
+    *//*position: relative;
+    */transition: .5s;
+    -webkit-border-radius: .3125rem;
+    -moz-border-radius: .3125rem;
+    -ms-border-radius: .3125rem;
+    -o-border-radius: .3125rem;
+}
+.none{
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.25rem;
+    letter-spacing: .75rem;
+}
+.log_filter{
+    margin: .625rem;
+    text-align: center;
+}
+.log_filter select{
+    margin: .625rem;
+    border: none;
+    outline: none;
+    padding: .3125rem;
+    border-radius: .625rem;
+    -webkit-border-radius: .625rem;
+    -moz-border-radius: .625rem;
+    -ms-border-radius: .625rem;
+    -o-border-radius: .625rem;
+}
+.log_filter option{
+    border: none;
+    outline: none;
+    background-color: #FAFFD1;
+    color: #999;
+    border-radius: .625rem;
+    padding: .3125rem;
+}
+
+
